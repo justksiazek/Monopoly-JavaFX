@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import java.util.ArrayList?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="709.0" prefWidth="806.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.polsl.lab.justyna.ksiazek.controller.MonopolyController">
+    <children>
+
+<!-- fields -->
+        <Rectangle fx:id="p0" arcHeight="5.0" arcWidth="5.0" fill="#fdc5b9" height="140.0" layoutX="14.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="140.0" />
+        <Rectangle fx:id="p1" arcHeight="5.0" arcWidth="5.0" fill="#90bbf4" height="140.0" layoutX="154.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+        <Rectangle fx:id="p2" arcHeight="5.0" arcWidth="5.0" fill="#fe98a3" height="140.0" layoutX="254.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+        <Rectangle fx:id="p3" arcHeight="5.0" arcWidth="5.0" fill="#90bbf4" height="140.0" layoutX="354.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+        <Rectangle fx:id="p4" arcHeight="5.0" arcWidth="5.0" fill="#b79ac1" height="140.0" layoutX="454.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+        <Rectangle fx:id="p5" arcHeight="5.0" arcWidth="5.0" fill="#90bbf4" height="140.0" layoutX="554.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+        <Rectangle fx:id="p6" arcHeight="5.0" arcWidth="5.0" fill="#fdc5b9" height="140.0" layoutX="654.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="140.0" />
+        <Rectangle fx:id="p7" arcHeight="5.0" arcWidth="5.0" fill="#90bbf4" height="100.0" layoutX="654.0" layoutY="154.0" stroke="BLACK" strokeType="INSIDE" width="140.0" />
+        <Rectangle fx:id="p8" arcHeight="5.0" arcWidth="5.0" fill="#fe98a3" height="100.0" layoutX="654.0" layoutY="254.0" stroke="BLACK" strokeType="INSIDE" width="140.0" />
+        <Rectangle fx:id="p9" arcHeight="5.0" arcWidth="5.0" fill="#fdb89b" height="100.0" layoutX="654.0" layoutY="354.0" stroke="BLACK" strokeType="INSIDE" width="140.0" />
+        <Rectangle fx:id="p10" arcHeight="5.0" arcWidth="5.0" fill="#90bbf4" height="100.0" layoutX="654.0" layoutY="454.0" stroke="BLACK" strokeType="INSIDE" width="140.0" />
+        <Rectangle fx:id="p11" arcHeight="5.0" arcWidth="5.0" fill="#fdc5b9" height="140.0" layoutX="654.0" layoutY="554.0" stroke="BLACK" strokeType="INSIDE" width="140.0" />
+        <Rectangle fx:id="p12" arcHeight="5.0" arcWidth="5.0" fill="#90bbf4" height="140.0" layoutX="554.0" layoutY="554.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+        <Rectangle fx:id="p13" arcHeight="5.0" arcWidth="5.0" fill="#fe98a3" height="140.0" layoutX="454.0" layoutY="554.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+        <Rectangle fx:id="p14" arcHeight="5.0" arcWidth="5.0" fill="#90bbf4" height="140.0" layoutX="354.0" layoutY="554.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+        <Rectangle fx:id="p15" arcHeight="5.0" arcWidth="5.0" fill="#b79ac1" height="140.0" layoutX="254.0" layoutY="554.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+        <Rectangle fx:id="p16" arcHeight="5.0" arcWidth="5.0" fill="#90bbf4" height="140.0" layoutX="154.0" layoutY="554.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+        <Rectangle fx:id="p17" arcHeight="5.0" arcWidth="5.0" fill="#fdc5b9" height="140.0" layoutX="14.0" layoutY="554.0" stroke="BLACK" strokeType="INSIDE" width="140.0" />
+        <Rectangle fx:id="p18" arcHeight="5.0" arcWidth="5.0" fill="#90bbf4" height="100.0" layoutX="14.0" layoutY="454.0" stroke="BLACK" strokeType="INSIDE" width="140.0" />
+        <Rectangle fx:id="p19" arcHeight="5.0" arcWidth="5.0" fill="#fe98a3" height="100.0" layoutX="14.0" layoutY="354.0" stroke="BLACK" strokeType="INSIDE" width="140.0" />
+        <Rectangle fx:id="p20" arcHeight="5.0" arcWidth="5.0" fill="#90bbf4" height="100.0" layoutX="14.0" layoutY="254.0" stroke="BLACK" strokeType="INSIDE" width="140.0" />
+        <Rectangle fx:id="p21" arcHeight="5.0" arcWidth="5.0" fill="#fdb89b" height="100.0" layoutX="14.0" layoutY="154.0" stroke="BLACK" strokeType="INSIDE" width="140.0" />
+
+<!-- field labels -->
+        <Label layoutX="62.0" layoutY="126.0" text="START">
+           <font> <Font size="14.0" /> </font>
+        </Label>
+        <Label layoutX="184.0" layoutY="126.0" text="AMiAL">
+           <font> <Font size="14.0" /> </font>
+        </Label>
+        <Label layoutX="277.0" layoutY="126.0" text="CHANCE">
+           <font> <Font size="14.0" /> </font>
+        </Label>
+        <Label layoutX="395.0" layoutY="126.0" text="PK">
+           <font> <Font size="14.0" /> </font>
+        </Label>
+        <Label layoutX="752.0" layoutY="295.0" rotate="90.0" text="CHANCE">
+           <font> <Font size="14.0" /> </font>
+        </Label>
+        <Label layoutX="477.0" layoutY="666.0" text="CHANCE">
+           <font> <Font size="14.0" /> </font>
+        </Label>
+        <Label layoutX="110.0" layoutY="394.0" rotate="90.0" text="CHANCE">
+           <font> <Font size="14.0" /> </font>
+        </Label>
+        <Label layoutX="486.0" layoutY="126.0" text="Buffet">
+           <font> <Font size="14.0" /> </font>
+        </Label>
+        <Label layoutX="592.0" layoutY="126.0" text="EiM">
+           <font> <Font size="14.0" /> </font>
+        </Label>
+        <Label layoutX="704.0" layoutY="126.0" text="HOME">
+           <font> <Font size="14.0" /> </font>
+        </Label>
+        <Label layoutX="766.0" layoutY="194.0" rotate="90.0" text="TUC">
+           <font> <Font size="14.0" /> </font>
+        </Label>
+        <Label layoutX="745.0" layoutY="394.0" rotate="90.0" text="All-Nighter">
+           <font> <Font size="14.0" /> </font>
+        </Label>
+        <Label layoutX="120.0" layoutY="194.0" rotate="90.0" text="Sleep">
+           <font> <Font size="14.0" /> </font>
+        </Label>
+        <Label layoutX="130.0" layoutY="295.0" rotate="90.0" text="JA">
+           <font> <Font size="14.0" /> </font>
+        </Label>
+        <Label layoutX="130.0" layoutY="494.0" rotate="90.0" text="PE">
+           <font> <Font size="14.0" /> </font>
+        </Label>
+        <Label layoutX="58.0" layoutY="666.0" text="RE-TAKE">
+           <font> <Font size="14.0" /> </font>
+        </Label>
+        <Label layoutX="189.0" layoutY="666.0" text="JIUM">
+           <font> <Font size="14.0" /> </font>
+        </Label>
+        <Label layoutX="291.0" layoutY="666.0" text="Igry">
+           <font> <Font size="14.0" /> </font>
+        </Label>
+        <Label layoutX="386.0" layoutY="666.0" text="SMiW">
+           <font> <Font size="14.0" /> </font>
+        </Label>
+        <Label layoutX="595.0" layoutY="666.0" text="BD">
+           <font> <Font size="14.0" /> </font>
+        </Label>
+        <Label layoutX="769.0" layoutY="494.0" rotate="90.0" text="MS">
+           <font> <Font size="14.0" /> </font>
+        </Label>
+        <Label layoutX="679.0" layoutY="666.0" text="SCHOLARSHIP">
+           <font> <Font size="14.0" /> </font>
+        </Label>
+           
+<!-- card -->
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fff1b9" height="280.0" layoutX="203.0" layoutY="215.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+        <Label fx:id="name" alignment="CENTER" layoutX="212.0" layoutY="227.0" prefHeight="27.0" prefWidth="182.0" text="&lt;name&gt;" textFill="#ff6b00" underline="true">
+           <font> <Font size="18.0" /> </font>
+        </Label>
+        <Label fx:id="desc" alignment="CENTER" layoutX="212.0" layoutY="262.0" prefHeight="75.0" prefWidth="182.0" text="&lt;description&gt;" wrapText="true" />
+        <Label fx:id="value" alignment="CENTER" contentDisplay="CENTER" layoutX="213.0" layoutY="344.0" prefHeight="20.0" prefWidth="182.0" text="&lt;value&gt;" textAlignment="CENTER">
+           <font> <Font size="14.0" /> </font>
+        </Label>
+        <Label fx:id="penalty" alignment="CENTER" layoutX="213.0" layoutY="405.0" prefHeight="17.0" prefWidth="182.0" text="penalty: 000" />
+        <Label fx:id="buildingCost" alignment="CENTER" layoutX="213.0" layoutY="437.0" prefHeight="17.0" prefWidth="182.0" text="building cost: 000" />
+        <Label fx:id="owner" alignment="CENTER" layoutX="213.0" layoutY="374.0" prefHeight="17.0" prefWidth="182.0" text="owner: xxxxxxxxxx" />
+        <Label fx:id="numOfBuildings" alignment="CENTER" layoutX="213.0" layoutY="465.0" prefHeight="17.0" prefWidth="182.0" text="number of buildings: 0" />
+
+<!-- buy /fortify field -->
+        <Button fx:id="buyBtn" disable="true" layoutX="213.0" layoutY="504.0" mnemonicParsing="false" onAction="#buyField" text="Buy it!" />
+        <Button fx:id="fortifyBtn" disable="true" layoutX="278.0" layoutY="504.0" mnemonicParsing="false" onAction="#fortifyField" text="Fortify" />
+        <TextField fx:id="fortifyText" disable="true" layoutX="342.0" layoutY="504.0" prefHeight="25.0" prefWidth="49.0" />  
+        
+<!-- active player info -->
+        <Label layoutX="447.0" layoutY="232.0" prefHeight="17.0" prefWidth="169.0" text="Active player:">
+           <font> <Font size="13.0" /> </font>
+        </Label>
+        <Label fx:id="playerName" layoutX="466.0" layoutY="261.0" prefHeight="20.0" prefWidth="150.0" text="&lt;name&gt;" textFill="#008cff">
+           <font> <Font size="14.0" /> </font>
+        </Label>
+        <Label layoutX="447.0" layoutY="286.0" prefHeight="17.0" prefWidth="169.0" text="Resources:">
+           <font> <Font size="13.0" /> </font>
+        </Label>
+        <Label fx:id="playerRes" layoutX="466.0" layoutY="314.0" prefHeight="40.0" prefWidth="150.0" text="&lt;res&gt;" textFill="#00d374" wrapText="true">
+           <font> <Font size="14.0" /> </font>
+        </Label>   
+        
+<!-- dice -->
+        <Button fx:id="diceBtn" alignment="CENTER" contentDisplay="CENTER" layoutX="482.0" layoutY="420.0" mnemonicParsing="false" onAction="#rollDice" prefHeight="68.0" prefWidth="82.0" text="Click to roll!" textAlignment="CENTER" wrapText="true">
+           <font> <Font size="18.0" /> </font>
+        </Button>
+        <Label layoutX="446.0" layoutY="362.0" prefHeight="19.0" prefWidth="169.0" text="Rolled:">
+           <font> <Font size="13.0" /> </font>
+        </Label>
+        <Label fx:id="rolledNum" layoutX="466.0" layoutY="383.0" prefHeight="20.0" prefWidth="150.0" text="&lt;number&gt;" textFill="#ba2eff">
+           <font> <Font size="14.0" /> </font>
+        </Label>
+      
+<!-- player pins -->
+        <Circle fx:id="pin0" fill="#166ddf" layoutX="-20.0" layoutY="76.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="pin1" fill="#7e558b" layoutX="-60.0" layoutY="76.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="pin2" fill="#f40119" layoutX="-20.0" layoutY="116.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="pin3" fill="#f5c400" layoutX="-60.0" layoutY="116.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      
+<!-- end round -->
+        <Button fx:id="endRoundBtn" disable="true" layoutX="487.0" layoutY="504.0" mnemonicParsing="false" onAction="#endRound" text="End round" />
+                
+    </children>
+</Pane>

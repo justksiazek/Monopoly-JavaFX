@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="135.0" prefWidth="224.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.polsl.lab.justyna.ksiazek.controller.AlertController">
+   <children>
+      <Label fx:id="message" alignment="CENTER" layoutX="8.0" layoutY="23.0" prefHeight="55.0" prefWidth="207.0" text="message" wrapText="true" />
+      <Button fx:id="okBtn" layoutX="86.0" layoutY="91.0" mnemonicParsing="false" onAction="#close" text="OK" />
+   </children>
+</Pane>

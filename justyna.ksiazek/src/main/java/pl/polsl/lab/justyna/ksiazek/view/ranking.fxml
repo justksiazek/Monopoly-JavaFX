@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="274.0" prefWidth="306.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.polsl.lab.justyna.ksiazek.controller.RankingController">
+   <children>
+      <TableView fx:id="table" layoutX="32.0" layoutY="55.0" prefHeight="170.0" prefWidth="240.0">
+      </TableView>
+      <Label layoutX="110.0" layoutY="14.0" text="Ranking">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="exitBtn" layoutX="134.0" layoutY="236.0" mnemonicParsing="false" onAction="#exitGame" text="EXIT" />
+   </children>
+</Pane>
