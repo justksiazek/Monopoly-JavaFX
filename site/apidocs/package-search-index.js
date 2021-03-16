@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"pl.polsl.lab.justyna.ksiazek.controller"},{"l":"pl.polsl.lab.justyna.ksiazek.model"}];updateSearchResults();
